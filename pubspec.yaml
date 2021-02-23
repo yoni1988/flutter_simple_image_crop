@@ -3,9 +3,6 @@ description: A simple and easy to use flutter plugin to crop image on iOS and An
 version: 1.0.1
 homepage: https://github.com/yoni1988/flutter_simple_image_crop.git
 
-environment:
-  sdk: ">=2.0.0 <3.0.0"
-
 dependencies:
   flutter:
     sdk: flutter
@@ -22,3 +19,7 @@ flutter:
         pluginClass: SimpleImageCropPlugin
       ios:
         pluginClass: SimpleImageCropPlugin
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+  flutter: ">=1.12.0"
